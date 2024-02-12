@@ -1,0 +1,128 @@
+  body{
+  background-color: #f058c5ea;
+}
+
+header, .alert{
+  z-index: 100;
+} 
+
+
+.description{
+  height: 20px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 100px;
+}
+
+
+  .carrito{
+margin: 50px;
+width: auto;
+} 
+
+td{
+
+  color: white;
+}
+tbody, td, tfoot, th, thead, tr {
+  border-style: inherit;
+}
+
+.table{
+  height: 550px;
+}
+
+.table__productos > img{
+  width: 10rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.hide, .remove{
+  display: none;
+}
+
+.div{
+  background-color: white;
+}
+
+.img{
+  width: auto;
+  height: auto;
+}
+
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin-top: -40px;
+}
+
+.nav-item{
+  position: relative;
+  right: -10px;
+}
+
+li{
+  position: relative;
+  top: 115px;
+}
+
+.text{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.cards{
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+}
+
+.logo{
+  width: 21%;
+  height: auto;
+  position: relative;
+  top: 50px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #f058c5ea;
+}
+
+.button{
+  margin-top: 15px;
+  display: flex;
+}
+
+.card-body{
+  margin-bottom: -10px;
+}
+
+h5{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+
+.finalizar-compra{
+padding: -150px;
+margin-bottom: 10px;
+
+}
